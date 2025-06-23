@@ -1,23 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
 
-}
-.box{
-    border: 2px solid black;
-    background-color: blueviolet;
-    /* width: 1920px; */
-    /* Unit VW = view port width   */
-    width: 100vw;      /*this will taken all view port (monitor) length */
-    box-sizing: border-box;
-    margin:auto;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.box2{
-    border: 2px solid black;
-    background-color: yellowgreen;
-    width: 80vw;
-    margin: 20px auto;
-
+.box {
+  border: 2px solid black;
+  background-color: blueviolet;
+  /* width: 1920px; */
+  /* Unit VW = view port width   */
+  width: 100vw; /*this will taken all view port (monitor) length */
+  box-sizing: border-box;
+  margin: auto;
+  font-size: 20px;
 }
+
+.box2 {
+  border: 2px solid black;
+  background-color: yellowgreen;
+  width: 80vw;
+  /* Unit VH = view port height */
+  height: 80vh; /*this will taken all view port (monitor) height in percent  */
+   min-height: 80vw;   /* This property will automatically adjust the height according to container  */
+  margin: 10px auto;
+  font-size: 12px; /*     this font size will change in box2 p   */
+  box-sizing: border-box;
+}
+
+.box2 div{
+ /* font-size: 2em ; /* This property will inhariet  em = (actual font-size * em ) Eg. 15*2 =30px font size           */
+
+
+ font-size: 2rem ; /* HEAR WE USE THE REM PROPERTY SO WE WILL TAKE ALL PAGE FONT SIZE IS 12PX USING HTML TAG */
+ width: 50%;
+ border: solid 2px red;
+}
+.box2 > div >div {
+    border: solid 2px darkgreen;
+    width: 50%;
+}
+
+.box3 p{
+border: 2px solid black;
+background-color: yellowgreen;
+  /* width: 80vw; */
+  /* Unit VH = view port height */
+height: 80vh; /*this will taken all view port (monitor) height in percent  */
+width: 50%;
+margin: 10px auto;
+font-size: 13px; /*     this font size will change in box2 p   */
+box-sizing: border-box;
+}
+
+
+
+
+
+
