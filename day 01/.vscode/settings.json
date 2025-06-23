@@ -1,0 +1,6 @@
+{
+    "livePreview.debugOnExternalPreview": true,
+    "livePreview.hostIP": "192.168.125.162",
+    "livePreview.tasks.runTaskWithExternalPreview": true,
+    "livePreview.showServerStatusNotifications": true
+}

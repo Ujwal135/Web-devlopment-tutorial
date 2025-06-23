@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Module </title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.box{
+    color: red;
+    background-color: aqua;
+} 
+.box1{
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid black;
+    height: 200px;
+    box-sizing: border-box;
+
+}
+.box2{
+    color: black;
+    background-color: yellow;
+}
+.box3{
+    padding: 10px;
+    margin: 45px;
+    border: 3px solid black;
+    height: 200px;
+    box-sizing: border-box;
+    /* MARGIN COLLAPS */
+}
+
+.box4{
+    color: rgb(2, 23, 2);
+    background-color: burlywood;
+    padding: 30px;
+    margin: 15px;
+    border: 3px solid rebeccapurple;
+    height: 120px;
+
+}
+   
+
+</style>
+
+<body>
+<div class="box box1 ">This is paragraph one</div>
+<div class="box2 box3 ">This is paragraph two </div>
+<div class="box4">
+    <ul>
+
+    <li>padding</li>
+    <li>margin</li>
+    <li>border</li>
+    <li>height</li>
+    <li>box sizzing bordar box</li>
+    <li>margin collaps</li>
+    
+    </ul>
+</div>
+</body>
+</html>

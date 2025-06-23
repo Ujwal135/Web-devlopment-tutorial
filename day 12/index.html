@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors in CSS</title>
+</head>
+<style>
+
+    /* Element selector */
+    div{
+        background-color: yellow;
+    }
+
+    /* id selector */
+    #green{
+        background-color: blueviolet;
+    }
+
+    /* class selector */
+    .one{
+        background-color: green;
+    }
+
+    /* child selectors */
+    div > p {
+        background-color: blue;
+    }
+    /* IMP */
+    div p:nth-child(1){
+        background-color: red;
+    }
+
+    /* descendent selector */
+    p{
+        background-color: coral;
+    }
+
+    /* Universel selector */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* pseudo selector */
+    a:visited{
+        color: darkmagenta;
+    }
+
+    a:link{
+        color: green;
+    }
+
+    a:hover{
+        background-color: blue;
+    }
+
+    a:active{
+        background-color: crimson;
+    }
+
+    p:first-child{
+        background-color: aqua;
+    }
+    
+
+
+
+    
+
+</style>
+<body>
+    <div>
+        This is paragraph one 
+    </div>
+
+    <div id="green">
+        This is paragraph two
+    </div>
+
+    <div class="one">
+        this is paragraph three
+    </div>
+
+    <article>
+        this is paragraph four
+        <p>**this is child paragraph**</p>
+    </article>
+    
+    <p>This is paragraph {descandent selector}  </p>
+    
+    <a href="https://www.google.com">Vist to the Google </a>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+
+    <main class="two ">
+        <p> first child </p>
+        <p> second child </p>
+    
+    
+    </main>
+</body>
+</html>
