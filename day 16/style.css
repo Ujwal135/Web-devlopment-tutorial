@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.box{
+    border: 2px solid black;
+    background-color: blueviolet;
+    /* width: 1920px; */
+    /* Unit VW = view port width   */
+    width: 100vw;      /*this will taken all view port (monitor) length */
+    box-sizing: border-box;
+    margin:auto;
+
+}
+
+.box2{
+    border: 2px solid black;
+    background-color: yellowgreen;
+    width: 80vw;
+    margin: 20px auto;
+
+}
