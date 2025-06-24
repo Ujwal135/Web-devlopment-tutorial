@@ -1,0 +1,36 @@
+.box1{
+    border: solid black 2px;
+    text-align: center;
+    background-color: aquamarine;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.box2{
+    border: solid black 2px;
+    display: inline-block;
+    padding: 40px;
+    margin: 40px;
+    background-color: yellow;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.box3{
+    border: solid black 2px;
+    
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    display: inline-block;
+    padding: 40px;
+    margin: 40px;
+    background-color: pink
+}
+
+ .box4{                          /* outline */
+    margin: 40px;
+    padding: 40px;
+    display: inline-block;
+    background-color: skyblue;
+    outline-style:double ;
+    outline-color: blue;
+}
