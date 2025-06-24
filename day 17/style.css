@@ -1,0 +1,55 @@
+.box0{
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    text-align: center;
+    background-color: orange;
+    border: black 2px solid;
+    font-family: 'Lucida Sans';
+    text-decoration: underline;
+}
+
+ div > p{
+    font-size:small ;
+    text-align: justify;
+    text-decoration: none;  ;
+    margin: 5PX;
+
+}
+
+.box1{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: burlywood;
+    margin:50px;
+    padding: 50px;
+}
+
+.box2{
+    border: 2px solid black;
+    display: inline-block ;
+    background-color: chocolate;
+    margin: 50px;
+    padding: 50px;
+}
+/* This Box4 is hidden because we use display : none ;    */
+.box3{
+    border: 2px solid black;
+    display:inline-block;
+    /* visibility: hidden; */
+    background-color: brown;
+    margin: 50px;
+    padding: 50px;
+}
+
+.box4{
+    border: 2px solid yellow;
+    display: inline-block;
+    background-color: rgb(53, 4, 4);
+    color: wheat;
+    margin: 50px;
+    padding: 50px;
+
+}
+
+
