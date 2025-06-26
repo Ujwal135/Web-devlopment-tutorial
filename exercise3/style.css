@@ -1,0 +1,65 @@
+.parent {
+  border-radius: 13px;
+  border: 2px solid rgba(172, 163, 163, 0.71);
+  width: 400px;
+  height: 600px;
+  position: relative;
+  left: 550px;
+  top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+  border-radius: 22px;
+  position: relative;
+  left: 553px;
+  bottom: 520px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border-image:round 4px;    */
+}
+.bella {
+  position: relative;
+  left: 310px;
+  bottom: 498px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid lightslategray;
+  color: lightslategray;
+  font-size: 18px;
+}
+
+.safari {
+  position: relative;
+  left: 618px;
+  bottom: 445px;
+  font-size: 25px;
+  font-family: "Lucida Sans";
+}
+.info {
+  position: relative;
+  left: 572px;
+  bottom: 437px;
+  font-size: 17px;
+  font-family: "Lucida Sans";
+  width: 362px;
+  height: 133px;
+  text-align: justify;
+  display: block;
+  color: lightslategray;
+  /* border: 1px solid black; */
+}
+.read {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 25px;
+  text-align: center;
+  /* border: 1px solid black; */
+  left: 693px;
+  bottom: 437px;
+  color: rgb(110, 92, 208);
+  font-size: 17px;
+  font-family: "Lucida Sans";
+  background-color: rgb(195, 195, 207);
+}
