@@ -1,0 +1,17 @@
+CSS Positions property 
+Position - relative : we can change its Position 
+                        using top & bottom value 
+                        and left,Right value
+
+           z-index : if we have two boxes and we have
+                     to stack up them on each other 
+                     then we use z-index 
+                     if z-index value of any box grater
+                      then  that perticuler box 
+                      that will stack-up
+        
+         - absolute : This property will refer the other
+                     absolute property ither take HTML tag
+                     as a reffrance postion 
+
+        -  Fixed    : This property will sett the box at fixed postion  

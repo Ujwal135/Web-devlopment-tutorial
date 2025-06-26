@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    border: 2px solid black;
+    margin: 60px;
+    padding: 30px;
+    width: 90vw;
+    height: 120vh;
+}
+
+.box{
+    border: 2px solid black;
+    width: 40vw;
+    height: 40vh;
+    margin: 20px;
+    
+}
+
+.box1{
+    background-color: aqua;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    height: 8%;
+    width: 100%;
+
+    /* position: relative; */
+    /* z-index: 1;  /* if z-index value of box1 is greter then box2 then it will stack-up  */
+    
+}
+.box2{
+    background-color:blanchedalmond ;
+    /* position: relative;  */
+    /* top: -48px;
+    left: 80px ; */
+    /* z-index: 2; */
+}
+
+.box3{
+    background-color: cadetblue;
+
+    /* position:absolute;  This will refer Html tag postion  */
+    /* position: fixed; /* This will fixted the postion of container means setaled at that perticuler postion  */
+    /* width: 60vw;
+    height: 6vw;
+    
+    bottom: 17px;
+    left: 6vw; */ 
+}
+
+.box4{
+    background-color: purple;
+   
+/*EXCEPTION : transform ,fillter perspective properties can also make an  element 
+apper as positioned 
+transform : translate(0);
+filter : invert(0) ;
+perspective ;(0EM) ; */
+
+
+}
