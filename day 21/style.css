@@ -1,0 +1,42 @@
+
+:root{
+    --color:rgb(235, 162, 17);  /* This is globle variable */
+    --seccolor:greenyellow;
+    --defpad:13px;
+    --defop:0.6;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.contain{
+    background-color: var(--seccolor,pink);  /*pink is an optional if in case we comment --secolor*/
+    border: 2px solid black;
+}
+
+div>ul>li{
+    margin: 8px;
+    padding: 23px;
+    border: 2px solid black;
+    background-color: var(--color );
+
+}
+div > ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li:first-child{
+
+    --color:rgb(215, 28, 171);   /* Hear you locally declare variable which can be change without afftecting other variable*/
+    background-color: var(--color);
+    padding: var(--defpad);  /*Hear we changed padding using variable */
+    opacity: var(--defop);
+}
+
