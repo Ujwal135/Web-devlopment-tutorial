@@ -1,0 +1,40 @@
+/* More selectors in CSS  */
+
+.boxes::first-line{
+    color: red;
+}
+
+.boxes *{
+color: blue;
+border: 2px solid black;
+}
+
+
+[data-color = "primary"]{
+    padding-top: 35px;
+}
+
+.boxes:nth-child(3){
+    background-color: skyblue;
+}
+
+.boxes::before{
+    content: "Ujjwal is all gud";
+}
+
+.boxes::after{
+    content: "gud,tell me about you ?";
+}
+
+::selection{
+    background-color: black;
+    color: aqua;
+}
+.box::first-letter{
+    color: purple;
+    font-size: 25px;
+}
+
+input::placeholder{
+    color: yellowgreen;
+}
