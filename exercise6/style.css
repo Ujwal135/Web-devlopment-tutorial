@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+    position: sticky;
+    background-color: #f9f9f9;
+    top: 0%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: s;
+}
+
+ul > li {
+  list-style: none;
+  margin: 5px;
+  padding: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+}
+.m1 {
+  border: 2px solid black;
+  padding: 7px;
+  font-size: small;
+  font-family: "Poppins";
+  text-align: center;
+}
+h1 {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+}
+.contain {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  font-size: 16px;
+  width: 900px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: ' "Poppins"';
+  margin-bottom: 40px;
+}
+.rectangle {
+  border-radius: 2%;
+  width: 270px;
+  height: 35px;
+  justify-self: center;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #f9f9f9;
+  font-weight: 600;
+  font-family: "Poppins";
+  background-color: #00b6d1;
+  text-transform: uppercase;
+}
+
+.line {
+  margin-top: 60px;
+  margin-left: 490px;
+  font-size: 15px;
+}
+
+.container {
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.items {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 200px;
+  margin: 30px;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  font-family: "Poppins";
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+}
+button {
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 16px;
+  border: none;
+}
+div > p {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 8px;
+  text-size-adjust: 100%;
+  word-break: break-word;
+}
