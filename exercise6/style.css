@@ -5,26 +5,31 @@
   padding: 0;
 }
 header{
-    position: sticky;
-    background-color: #f9f9f9;
-    top: 0%;
+  position: sticky;
+  top: 0;
+  background-color: #f9f9f9;
 }
 
-.navbar {
+.right > ul{
   display: flex;
-  justify-content: center;
-  justify-content: s;
+  list-style: none;
+  gap :30px;
+  margin-top: 20px;
+  /* justify-content: space-around; */
 }
 
-ul > li {
-  list-style: none;
-  margin: 5px;
-  padding: 20px;
-  display: inline-flex;
-  align-items: center;
-  font-family: "Poppins";
-  font-size: 20px;
+.navbar{
+  display:flex ;
+  justify-content: space-around; 
 }
+
+.right>ul>li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
 a {
   text-decoration: none;
   color: black;

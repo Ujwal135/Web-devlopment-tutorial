@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Transforms</title>
+</head>
+<style>
+.container{
+    width: 80vw;
+    height: 60vh;
+    border: 2px solid yellow;
+
+}
+.items{
+    height: 80px;
+    width: 80px;
+    border: 2px solid red;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Transform propety  */
+        /* transform: rotate(0.25turn); */
+            /* transform: rotate(40deg); */
+            /* transform: scaleX(1.8); */
+            /* transform: skewY(10deg); */
+            /* transform: translateY(80px); */
+          transform: translateY(40%) skew(30deg) ;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="items">Box1</div>
+
+    </div>
+</body>
+</html>
