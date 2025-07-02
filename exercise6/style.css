@@ -9,7 +9,9 @@ header{
   top: 0;
   background-color: #f9f9f9;
 }
-
+.logo{
+margin-left: 160px;
+}
 .right > ul{
   display: flex;
   list-style: none;
