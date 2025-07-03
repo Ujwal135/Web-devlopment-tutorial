@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animation in CSS</title>
-</head>
-<style>
-    .container{
-        width: 70vw;
-        height: 60vh;
-        background-color: rgb(80, 35, 117);
+  </head>
+  <style>
+    .container {
+      width: 70vw;
+      height: 60vh;
+      background-color: rgb(80, 35, 117);
     }
 
-    .box{
-        background-color: red;
+    .box {
+      background-color: red;
 
-        width: 50px;
-        height: 80px;
-        animation-name:ujwal135;
-       
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-delay: 1s;
-        animation-direction:alternate-reverse;
-        animation-play-state: running;
-        
-        
-        
+      width: 50px;
+      height: 80px;
+      animation-name: ujwal135;
+
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+      animation-direction: alternate-reverse;
+      animation-play-state: running;
     }
     @keyframes ujwal135 {
-       from{
+      from {
         background-color: rgb(255, 0, 0);
-       }
-       to{
+      }
+      to {
         background-color: yellow;
         transform: translate(1000px);
-       } 
+      }
     }
     /* @keyframes ujwal {
         0%{
@@ -56,16 +53,10 @@
         100%{
             transform: rotate(340deg);
         } */
-     
-    }
-</style>
-<body>
-
+  </style>
+  <body>
     <div class="container">
-
-        <div class="box">
-            BOXX
-        </div>
+      <div class="box">BOXX</div>
     </div>
-</body>
+  </body>
 </html>
