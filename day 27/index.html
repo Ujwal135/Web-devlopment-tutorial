@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-transition-property </title>
+</head>
+<style>
+    .container{
+        width: 60vw;
+        height: 40vh;
+        border: 1px solid red;
+        background-color: yellow;
+    }
+    .items{
+        width: 130px;
+        height: 70px;
+        background-color: purple;
+
+        /* transition-property: transform;
+        transition-duration: 3s;
+        transition-delay: 0.5s;
+        transition-timing-function:ease-in-out ;  This proprty will get you in chrome*/   
+
+        /* Short-Hand property  */
+        transition: all 2s cubic-bezier(0, 1.25, 0.8,-0.15) 1s;
+
+    }
+    .transition{
+       transform: translateX(123px) translateY(70px);
+       background-color: blue;
+    }
+
+</style>
+
+<body>
+<div class="container">
+    <div class="items transition">
+
+    </div>
+</div>    
+</body>
+</html>
