@@ -51,4 +51,4 @@ console.log(newarr.reduce(red))
 
 /// Convert any string to array
 
-console.log(Array.from("ujjwalDandge")) 
+console.log(Array.from("ujjwalDandge"))  
