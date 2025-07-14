@@ -1,5 +1,7 @@
 console.log("java script  DOM children parent & sibling nodes")
 
+document.title = "DOM usage in java-script"
+
 console.log(document.body.childNodes)
 
 console.log(document.body.childNodes[5].childNodes)
