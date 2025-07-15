@@ -36,8 +36,9 @@ document.querySelector(".box1").removeAttribute("style")
 // data information ------ cheack HTML BOX 1 
 document.querySelector(".box1").dataset
 
-// Inserting element through java-script
-// let div = document.createElement('div');
-// div.innerHTML = "I have been created by Ujjwal "
-// div.setAttribute("class","created ");
-// div.querySelector(".container").append(div)
+//Inserting element through java-script 
+
+let div = document.createElement('div');
+div.innerHTML = "I have been created by Ujjwal "
+div.setAttribute("class","created ");
+div.querySelector(".container").append(div)
