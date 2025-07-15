@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="script.js"></script>
+  <style>
+    body {
+      /* background-color: #f7f2bd; */
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="box">this is box 1</div>
+      <div
+        class="box1"
+        style="display: flex"
+        data-createdby="Ujjwal"
+        data-consept-by="company.ltd"
+      >
+        this is box 2
+      </div>
+      <div class="box">this is box 3</div>
+      <div class="box">this is box 4</div>
+      <div class="box">this is box 5</div>
+    </div>
+
+    <script>
+      let div = document.createElement("div");
+      div.innerHTML = "I have been created <b>by Ujjwal </b>";
+      div.setAttribute("class", "created ");
+      document.querySelector(".container").append(div);
+    </script>
+  </body>
+</html>
