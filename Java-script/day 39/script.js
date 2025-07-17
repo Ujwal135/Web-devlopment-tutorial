@@ -7,7 +7,7 @@ console.log(document.querySelector(".box").innerHTML)
 
 // this will return all div in container 
 
-console.log(document.querySelector(".container").innerHTML)  
+console.log(document.querySelector(".container").innerHTML)
 
 // this will return tag name 
 console.log(document.querySelector(".box").tagName)
@@ -28,7 +28,7 @@ document.querySelector(".box").hasAttribute("style")
 document.querySelector(".box1").getAttribute("style")
 
 // this method will set the attribute 
-document.querySelector(".box1").setAttribute("style","display:inline") 
+document.querySelector(".box1").setAttribute("style", "display:inline")
 
 // this method will remove the attribute
 document.querySelector(".box1").removeAttribute("style")
@@ -37,4 +37,30 @@ document.querySelector(".box1").removeAttribute("style")
 document.querySelector(".box1").dataset
 
 //Inserting element through java-script 
-// cheack HTML SCRIPT
+
+/* 
+cheack HTML SCRIPT tag
+let div = document.createElement("div");
+div.innerHTML = "I have been created <b>by Ujjwal </b>";
+div.setAttribute("class", "created ");
+document.querySelector(".container").append(div);
+
+*/
+
+// Manipulate the postion of element 
+
+/*
+let cont = document.querySelector(".container")
+cont.insertAdjacentHTML("afterend", "<b>Hi im Ujjwal and  im from jalgaon , and im learning java-script...</b>")
+*/
+
+// Class Name and class List 
+document.querySelector(".container").classList
+document.querySelector(".container").className
+
+// Class add in list 
+Document.querySelector(".container").classList.add("Ujjwal")
+
+// class remove from list 
+document.querySelector(".container").classList.remove("Ujjwal")
+

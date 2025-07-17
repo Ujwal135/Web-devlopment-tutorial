@@ -13,7 +13,8 @@
   </style>
 
   <body>
-    <div class="container">
+    <div class="container red bg-yellow pink">
+      <div>this us box 0</div>
       <div class="box">this is box 1</div>
       <div
         class="box1"
@@ -33,6 +34,11 @@
       div.innerHTML = "I have been created <b>by Ujjwal </b>";
       div.setAttribute("class", "created ");
       document.querySelector(".container").append(div);
+
+       let cont = document.querySelector(".container")
+      cont.insertAdjacentHTML("afterend","<b>Hi im Ujjwal and  im from jalgaon , and im learning java-script...</b>")
+      
     </script>
+
   </body>
 </html>
