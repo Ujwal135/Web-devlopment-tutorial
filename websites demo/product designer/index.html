@@ -1,100 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product_Design</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-</head>
-
-<body>
-    <div id="main">
-        <div id="home">
-            <div id="nav">
-                <a href="">Cynthia Ugwu</a>
-                <h5>MENU+</h5>
-            </div>
-            <div id="heading">
-                <h1>Product</h1>
-                <div id="inline">
-                    <h1 id="h2">Designer</h1>
-                    <h5 id="h3">Based in toronto</h5>
-                </div>
-            </div>
-
-            <div id="childhead">
-                <h5>Available For freelance</h5>
-                <h5>Work from may 14</h5>
-            </div>
-            <div class="homefooter">
-                <a href="#">Priviously worked at YML <i class="ri-arrow-right-up-line"></i></a>
-                <a href="#">Protopie ambassador <i class="ri-arrow-right-up-line"></i></a>
-                <div class="iconset">
-                    <div class="circle"><i class="ri-arrow-down-circle-line "> </i></div>
-                    <div class="circle"><i class="ri-arrow-down-circle-line"></i></div>
-                </div>
-            </div>
-        </div>
-        <div id="second">
-        <div class="elem">
-            <h1>Lucid Moters</h1>
-            <h5>2024</h5>
-            <img src="lucid-motors.webp" alt="">
-        </div>
-        <div class="elem">
-            <h1>Boron Capital</h1>
-            <h5>2024</h5>
-            <img src="baron-capital.webp" alt="">
-        </div>
-        <div class="elem">
-            <h1>Somos</h1>
-            <h5>2024</h5>
-            <img src="somos.webp" alt="">
-        </div>
-        <div class="elem">
-            <h1>NFL</h1>
-            <h5>2024</h5>
-            <img src="nfl.webp" alt="">
-        </div>
-        <div class="elem">
-            <h1>Placenew</h1>
-            <h5>2024</h5>
-            <img src="placenew.webp" alt="">
-        </div>
-    </div>
-
-    <div class="about">
-        <div><img src="cynthia.webp" alt=""></div>
-        <div class="content">
-            <h5 style="font-size: 19px;">(About me)</h5>
-            <p>I'm a product and motion designer who loves creating things that are not just eye candy but also fix
-                life's little hiccups. When I'm not glued to my computer like a robot or scribbling on my iPad, you
-                might catch me leveling up in video games, snapping photos like a wannabe pro, or watching football
-                because football is life. My design philosophy? Keep it snazzy, make it work, and sprinkle in a bit of
-                fun. I'm the designer you want on your team if you want people to exclaim, "I need that in my life!".
-            </p>
-            <a href="#">Let's Talk</a>
-        </div>
-
-    </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
     
-     <div class="subscribe">
+    <link rel="stylesheet" href="scroll.css" />
+   
+    
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EasePack.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+   
+
+
+  <body>
+    <div class="minicircle"></div>
+    <div id="main">
+      <div id="home">
+        <div id="nav">
+          <a href="">Cynthia Ugwu</a>
+          <h5>MENU+</h5>
+        </div>
+        <div id="heading">
+            <div class="bounding">
+            <div class="boundingelem">  <h1>Product</h1></div>
+            </div>
+          <div id="inline">
+            <div class="bounding">
+            <h1 class="boundingelem" id="h2">Designer</h1>
+            </div>
+             <div class="bounding aside">
+            <h5 class="boundingelem" id="h3">Based in toronto</h5>
+            </div>
+          </div>
+        </div>
+
+        <div id="childhead">
+           <div class="bounding"> 
+          <h5 class="boundingelem">Available For freelance</h5>
+          </div>
+          <div class="bounding">
+          <h5 class="boundingelem">Work from may 14</h5>
+          </div>
+        </div>
+        <div class="homefooter">
+          <a href="#">Priviously worked at YML <i class="ri-arrow-right-up-line"></i></a>
+          <a href="#">Protopie ambassador <i class="ri-arrow-right-up-line"></i></a>
+          
+          <div class="iconset">
+            <div class="circle"><i class="ri-arrow-down-circle-line"> </i></div>
+            <div class="circle"><i class="ri-arrow-down-circle-line"></i></div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="second">
+        <div class="elem">
+          <h1>Lucid Moters</h1>
+          <h5>2024</h5>
+          <img src="lucid-motors.webp" alt="" />
+        </div>
+        <div class="elem">
+          <h1>Boron Capital</h1>
+          <h5>2024</h5>
+          <img src="baron-capital.webp" alt="" />
+        </div>
+        <div class="elem">
+          <h1>Somos</h1>
+          <h5>2024</h5>
+          <img src="somos.webp" alt="" />
+        </div>
+        <div class="elem">
+          <h1>NFL</h1>
+          <h5>2024</h5>
+          <img src="nfl.webp" alt="" />
+        </div>
+        <div class="elem">
+          <h1>Placenew</h1>
+          <h5>2024</h5>
+          <img src="placenew.webp" alt="" />
+        </div>
+      </div>
+
+      <div class="about">
+        <div><img src="cynthia.webp" alt="" /></div>
+        <div class="content">
+          <h5 style="font-size: 19px">(About me)</h5>
+          <p>
+            I'm a product and motion designer who loves creating things that are
+            not just eye candy but also fix life's little hiccups. When I'm not
+            glued to my computer like a robot or scribbling on my iPad, you
+            might catch me leveling up in video games, snapping photos like a
+            wannabe pro, or watching football because football is life. My
+            design philosophy? Keep it snazzy, make it work, and sprinkle in a
+            bit of fun. I'm the designer you want on your team if you want
+            people to exclaim, "I need that in my life!".
+          </p>
+          <a href="#">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="subscribe">
         <h5>oops almost forgot...</h5>
-        <h4>Subscribe to my youtube channel  <i class="ri-arrow-right-up-line"></i></h4>
-    </div>
-    <div class="footer">
+        <h4>
+          Subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i>
+        </h4>
+      </div>
+      <div class="footer">
         <div class="footerleft">
-            <h5>2025 &copy;</h5>
-            <h5> 3:08 AM ET </h5>
+          <h5>2025 &copy;</h5>
+          <h5>3:08 AM ET</h5>
         </div>
         <div class="footerright">
-            <a href="#">linkedin</a><a href="#">x/twitter</a><a href="#">instagram</a><a href="#">youtube</a>
+          <a href="#">linkedin</a><a href="#">x/twitter</a
+          ><a href="#">instagram</a><a href="#">youtube</a>
         </div>
+      </div>
     </div>
-
-    </div>
-</body>
-
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="script.js"></script>
+ 
+  
 </html>
