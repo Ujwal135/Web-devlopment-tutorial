@@ -1,0 +1,9 @@
+install packages
+
+initialization of project package.
+npm init --- creating project packages
+
+node Module :
+npm install slugify
+npm install express
+
