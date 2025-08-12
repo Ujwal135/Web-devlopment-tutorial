@@ -1,0 +1,26 @@
+
+1. node vs express.  = node is main thing express ke code se hum server ka code likh pate hain and server kaisa react karega wobhi express ke help se likhte hain
+
+2. what is express js =  packages , Routing
+
+3. why express js = http is difficult to use ,express makes this easier 
+
+4. Routing = Routes banaane ke process ko hum kahete hain routing  
+             eg..
+             /profile 
+             /Home
+             /about-us
+             /contact-us/fskfnadf/affdsdd/dssgdsdsfjdsjns
+
+
+5. middleware = middleware ek aisa function hota hai jo her route se pehle chalta hain, iska matlab saare route main koi bhi chale ussse pahle middleware chalta hai and usme likha hua code pahle execute hota hain,
+
+
+
+
+6. request and responce
+7. route perameters
+8. template engines 
+9. static files
+10. http methods -get post 
+11. error handling 
