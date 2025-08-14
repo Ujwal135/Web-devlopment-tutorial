@@ -13,14 +13,67 @@
              /contact-us/fskfnadf/affdsdd/dssgdsdsfjdsjns
 
 
-5. middleware = middleware ek aisa function hota hai jo her route se pehle chalta hain, iska matlab saare route main koi bhi chale ussse pahle middleware chalta hai and usme likha hua code pahle execute hota hain,
+5. middleware =         middleware ek aisa function hota hai jo her 
+                        route se pehle chalta hain, iska matlab saare route main 
+                        koi bhi chale ussse pahle middleware 
+                        chalta hai and usme likha hua code pahle execute hota hain,
 
-
+                    next()    node ke sath ek dikkat hain ki agar control kisi middleware par gaya
+                        to control khud se alag route/ middleware par nahi jaayega, use agle
+                        usko algle pr lejane ke liye usko push krna padega aur ye push kahlaayega 
+                        next ko chalana 
 
 
 6. request and responce
-7. route perameters
-8. template engines 
+
+7. route perameters 
+                = aisa koi bhu route jiska koi hissa baar baar same rehta hain and kuch hissa baar baar change hota hai
+                    iske liye aap ek dynamic route bana skte ho.
+                eg... = >facebook.com/profile/harsh
+                         facebook.com/profile/harshit
+                         facebook.com/profile/harshitmehta
+
+                useCase =>    facebook.com/profile/:username
+
+                        Really... should we create same route frequently.
+
+                url main jab bhi kabhi aapne samne aisa pattern ho
+                /profile/:username  ==>  to this can be access by req & :username is called params
+
+                to make any route dynamic you can use : at the place where you want to make it dynamic,
+                and to access there value use req.params
+
+
+8. template engines ,,we have this template engines => yeh ek style of mark up aapko ek html dete hai 
+                        engines = pug,handlebars,ejs,jad
+
+                why ejs => becouse ejs is very very similer to  HTML
+
+
+    to set-up ejs follow this steps:
+
+        1. install ejs 
+
+        2. configure ejs 
+                app.set("view engine","ejs")
+
+        3. create folder by name views 
+
+        4. create file name ejs in views folder     
+
+        5. and replace send to render => make sure you have to call index.ejs file which is in views folder 
+                    ''warning dont use .ejs while calling file  ''
+
+
+
+
+
 9. static files
+        static file setup karne ke liye:
+        1.create folder called public
+        2.create three sub folder inside it , 1.Images,2.Staylesheets,3.javascripts
+        3.configure the express static index.js file
+        4.understand the path 
+
 10. http methods -get post 
 11. error handling 

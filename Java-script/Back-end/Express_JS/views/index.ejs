@@ -1,0 +1,383 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Johnson | Web Designer</title>
+  <meta id="page-lang" lang="en">
+  <link rel="stylesheet" href="../styles/mainpage.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+    <p>Loading Portfolio...</p>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Alex Johnson</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-3">
+            <button id="langToggle" class="btn btn-outline-light btn-sm">ES</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="bg-primary text-white text-center py-5 vh-100 d-flex align-items-center" data-aos="fade-in">
+    <div class="container">
+      <img src="images/profile.jpg" alt="Jane Doe" class="rounded-circle mb-4" width="180" height="180">
+      <h1 class="display-4">Hi , I'm Alex Johnson</h1>
+      <p class="lead">Creative Web Designer & UI/UX Enthusiast</p>
+      <a href="#portfolio" class="btn btn-light btn-lg mt-3">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-5">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>I'm a passionate web designer with over 5 years of experience creating beautiful, user-centered websites. I blend creativity with functionality to deliver stunning digital experiences.</p>
+          <p>My expertise includes UI/UX design, responsive layouts, and interactive web solutions using modern tools and best practices.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Specialty:</strong> Web & UI Design</li>
+            <li class="list-group-item"><strong>Experience:</strong> 5+ Years</li>
+            <li class="list-group-item"><strong>Location:</strong> New York, USA</li>
+            <li class="list-group-item"><strong>Email:</strong> jane@example.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light py-5" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-5">My Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fas fa-paint-brush fa-3x text-primary mb-3"></i>
+          <h4>UI/UX Design</h4>
+        </div>
+        <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-code fa-3x text-primary mb-3"></i>
+          <h4>HTML/CSS</h4>
+        </div>
+        <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fab fa-js fa-3x text-primary mb-3"></i>
+          <h4>JavaScript</h4>
+        </div>
+        <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="400">
+          <i class="fab fa-bootstrap fa-3x text-primary mb-3"></i>
+          <h4>Bootstrap</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-5" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-5">My Portfolio</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100" data-bs-toggle="modal" data-bs-target="#projectModal" data-title="E-Commerce Site" data-img="images/project1.jpg" data-desc="A fully responsive e-commerce website for a fashion brand with modern UI and smooth navigation." data-link="https://example.com">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Site</h5>
+              <p class="card-text">Responsive design for online fashion store.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" data-bs-toggle="modal" data-bs-target="#projectModal" data-title="Landing Page" data-img="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-desc="High-conversion landing page for a SaaS startup with clean design and animations." data-link="https://example.com">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Landing Page</h5>
+              <p class="card-text">High-conversion design for SaaS product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" data-bs-toggle="modal" data-bs-target="#projectModal" data-title="Photographer Portfolio" data-img="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-desc="Creative portfolio website for a professional photographer with gallery layout." data-link="https://example.com">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">Creative personal site for a photographer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-light py-5" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-5">What Clients Say</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="p-3 bg-white shadow-sm rounded">
+            <p>"Jane transformed our website into a modern, user-friendly platform. Highly recommend!"</p>
+            <strong>— Alex Turner, CEO of TechFlow</strong>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="p-3 bg-white shadow-sm rounded">
+            <p>"Her attention to detail and creativity made our brand stand out online."</p>
+            <strong>— Sarah Lee, Marketing Director</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-5">Get In Touch</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h4>Let's Connect</h4>
+          <p><i class="fas fa-envelope"></i> jane@example.com</p>
+          <p><i class="fab fa-linkedin"></i> linkedin.com/in/janedoe</p>
+          <p><i class="fab fa-behance"></i> behance.net/janedoe</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Jane Doe. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModalLabel">Project Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="" id="modalImage" class="img-fluid mb-3" alt="Project">
+          <p id="modalDescription">Description goes here.</p>
+          <a href="#" id="modalLink" class="btn btn-primary" target="_blank">Visit Live Site</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("YOUR_PUBLIC_KEY"); // ← Replace with your EmailJS Public Key
+    })();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    // Preloader
+window.addEventListener('load', () => {
+  const preloader = document.getElementById('preloader');
+  setTimeout(() => {
+    preloader.classList.add('hidden');
+  }, 500);
+});
+
+// Dark Mode Toggle
+const darkModeToggle = document.createElement('div');
+darkModeToggle.classList.add('dark-mode-toggle');
+darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+document.body.appendChild(darkModeToggle);
+
+if (localStorage.getItem('darkMode') === 'enabled') {
+  document.body.classList.add('dark-mode');
+  darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+}
+
+darkModeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  if (document.body.classList.contains('dark-mode')) {
+    darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    localStorage.setItem('darkMode', 'enabled');
+  } else {
+    darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+    localStorage.setItem('darkMode', 'disabled');
+  }
+});
+
+// Language Content
+const langContent = {
+  en: {
+    navHome: "Home", navAbout: "About", navPortfolio: "Portfolio",
+    navTestimonials: "Testimonials", navContact: "Contact",
+    heroTitle: "Hi, I'm Alex Johnson", heroSubtitle: "Creative Web Designer & UI/UX Enthusiast",
+    btnViewWork: "View My Work", aboutTitle: "About Me",
+    aboutText1: "I'm a passionate web designer with over 5 years of experience creating beautiful, user-centered websites.",
+    aboutText2: "My expertise includes UI/UX design, responsive layouts, and interactive web solutions using modern tools and best practices.",
+    skillsTitle: "My Skills", portfolioTitle: "My Portfolio",
+    testimonialsTitle: "What Clients Say", contactTitle: "Get In Touch",
+    formName: "Name", formEmail: "Email", formMessage: "Message", formSend: "Send Message",
+    footerText: "All Rights Reserved", modalVisit: "Visit Live Site"
+  },
+  es: {
+    navHome: "Inicio", navAbout: "Sobre Mí", navPortfolio: "Portafolio",
+    navTestimonials: "Testimonios", navContact: "Contacto",
+    heroTitle: "Hola, soy Jane Doe", heroSubtitle: "Diseñadora Web Creativa y Apasionada por UX/UI",
+    btnViewWork: "Ver Mi Trabajo", aboutTitle: "Sobre Mí",
+    aboutText1: "Soy una diseñadora web apasionada con más de 5 años de experiencia creando sitios web hermosos y centrados en el usuario.",
+    aboutText2: "Mi experiencia incluye diseño UX/UI, diseños responsivos y soluciones web interactivas usando herramientas modernas.",
+    skillsTitle: "Mis Habilidades", portfolioTitle: "Mi Portafolio",
+    testimonialsTitle: "Lo que Dicen los Clientes", contactTitle: "Contáctame",
+    formName: "Nombre", formEmail: "Correo", formMessage: "Mensaje", formSend: "Enviar Mensaje",
+    footerText: "Todos los Derechos Reservados", modalVisit: "Visitar Sitio"
+  }
+};
+
+// Language Toggle
+const langToggle = document.getElementById('langToggle');
+let currentLang = localStorage.getItem('lang') || 'en';
+
+function setLanguage(lang) {
+  const t = langContent[lang];
+  langToggle.textContent = lang === 'en' ? 'ES' : 'EN';
+
+  document.querySelector('a[href="#home"]').textContent = t.navHome;
+  document.querySelector('a[href="#about"]').textContent = t.navAbout;
+  document.querySelector('a[href="#portfolio"]').textContent = t.navPortfolio;
+  document.querySelector('a[href="#testimonials"]').textContent = t.navTestimonials;
+  document.querySelector('a[href="#contact"]').textContent = t.navContact;
+
+  document.querySelector('#home h1').textContent = t.heroTitle;
+  document.querySelector('#home .lead').textContent = t.heroSubtitle;
+  document.querySelector('#home .btn-lg').textContent = t.btnViewWork;
+
+  document.querySelector('#about h2').textContent = t.aboutTitle;
+  const aboutPs = document.querySelectorAll('#about p');
+  if (aboutPs[0]) aboutPs[0].textContent = t.aboutText1;
+  if (aboutPs[1]) aboutPs[1].textContent = t.aboutText2;
+
+  document.querySelector('#skills h2').textContent = t.skillsTitle;
+  document.querySelector('#portfolio h2').textContent = t.portfolioTitle;
+  document.querySelector('#testimonials h2').textContent = t.testimonialsTitle;
+  document.querySelector('#contact h2').textContent = t.contactTitle;
+
+  document.querySelector('label[for="name"]').textContent = t.formName;
+  document.querySelector('label[for="email"]').textContent = t.formEmail;
+  document.querySelector('label[for="message"]').textContent = t.formMessage;
+  document.getElementById('contactForm').querySelector('button').textContent = t.formSend;
+
+  document.querySelector('footer p').innerHTML = `&copy; 2025 Jane Doe. ${t.footerText}.`;
+  document.getElementById('modalLink').textContent = t.modalVisit;
+
+  if (typeof AOS !== 'undefined') AOS.refresh();
+}
+
+langToggle.addEventListener('click', () => {
+  currentLang = currentLang === 'en' ? 'es' : 'en';
+  setLanguage(currentLang);
+  localStorage.setItem('lang', currentLang);
+});
+
+setLanguage(currentLang);
+
+// Project Modal
+const projectModal = document.getElementById('projectModal');
+projectModal.addEventListener('show.bs.modal', function (e) {
+  const btn = e.relatedTarget;
+  document.getElementById('projectModalLabel').textContent = btn.getAttribute('data-title');
+  document.getElementById('modalImage').src = btn.getAttribute('data-img');
+  document.getElementById('modalDescription').textContent = btn.getAttribute('data-desc');
+  document.getElementById('modalLink').href = btn.getAttribute('data-link');
+});
+
+// EmailJS Form
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+    from_name: name,
+    from_email: email,
+    message: message,
+  }).then(() => {
+    alert('✅ Thank you! Your message has been sent.');
+    this.reset();
+  }, (err) => {
+    console.error('EmailJS error:', err);
+    alert('❌ Failed to send message. Please try again.');
+  });
+});
+
+// Initialize AOS
+document.addEventListener('DOMContentLoaded', () => {
+  AOS.init({
+    duration: 800,
+    easing: 'smooth',
+    once: true,
+    offset: 100
+  });
+});
+  </script>
+  
+</body>
+
+</html>
